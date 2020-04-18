@@ -21,6 +21,7 @@ playlist.load([
   {
     "src": "audio/Vocals30.mp3",
     "name": "Vocals",
+    "gain":0.2,
     "states": {
       "shift": false
     }
