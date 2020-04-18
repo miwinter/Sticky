@@ -19,24 +19,57 @@ var playlist = WaveformPlaylist.init({
 
 playlist.load([
   {
-    "src": "audio/Vocals30.mp3",
-    "name": "Vocals",
-    "gain":0.2,
-    "muted": true,
+    "src": "media/audio/Eagles-vocals.mp3",
+    "name": "Eagles - Vocals",
+    "gain":0.6,
     "states": {
       "shift": false
     }
   },
   {
-    "src": "audio/BassDrums30.mp3",
-    "name": "Drums",
+    "src": "media/audio/Eagles-bass.mp3",
+    "name": "Eagles - Bass",
+    "gain":0.6,
     "states": {
       "shift": false
     }
   },
   {
-    "src": "audio/BassDrums30.mp3",
-    "name": "Drums - copie",
+    "src": "media/audio/Eagles-drums.mp3",
+    "name": "Eagles - Drums",
+    "gain":0.6,
+    "states": {
+      "shift": false
+    }
+  },
+  {
+    "src": "media/audio/Eagles-guitars.mp3",
+    "name": "Eagles - Guitars",
+    "gain":0.6,
+    "states": {
+      "shift": false
+    }
+  },
+  {
+    "src": "media/audio/Steve.mp3",
+    "name": "Steve",
+    "gain":0.6,
+    "states": {
+      "shift": false
+    }
+  },
+  {
+    "src": "media/audio/Chris.mp3",
+    "name": "Chris",
+    "gain":0.6,
+    "states": {
+      "shift": false
+    }
+  },
+  {
+    "src": "media/audio/Michel.mp3",
+    "name": "Michel",
+    "gain":0.6,
     "states": {
       "shift": false
     }
