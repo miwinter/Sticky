@@ -19,14 +19,14 @@ var playlist = WaveformPlaylist.init({
 
 playlist.load([
   {
-    "src": "media/audio/Vocals30.mp3",
+    "src": "audio/Vocals30.mp3",
     "name": "Vocals",
     "states": {
       "shift": false
     }
   },
   {
-    "src": "media/audio/BassDrums30.mp3",
+    "src": "audio/BassDrums30.mp3",
     "name": "Drums",
     "start": 30
   }
