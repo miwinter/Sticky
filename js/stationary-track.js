@@ -31,6 +31,13 @@ playlist.load([
     "states": {
       "shift": false
     }
+  },
+  {
+    "src": "audio/BassDrums30.mp3",
+    "name": "Drums - 2",
+    "states": {
+      "shift": false
+    }
   }
 ]).then(function() {
   //can do stuff with the playlist.
