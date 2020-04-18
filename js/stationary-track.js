@@ -22,6 +22,7 @@ playlist.load([
     "src": "audio/Vocals30.mp3",
     "name": "Vocals",
     "gain":0.2,
+    "muted": true,
     "states": {
       "shift": false
     }
@@ -35,7 +36,7 @@ playlist.load([
   },
   {
     "src": "audio/BassDrums30.mp3",
-    "name": "Drums - 2",
+    "name": "Drums - copie",
     "states": {
       "shift": false
     }
