@@ -2,7 +2,7 @@ var playlist = WaveformPlaylist.init({
   samplesPerPixel: 3000,
   zoomLevels: [500, 1000, 3000, 5000],
   mono: true,
-  waveHeight: 80,
+  waveHeight: 100,
   container: document.getElementById("playlist"),
   state: 'shift',
   isAutomaticScroll: true,
@@ -22,8 +22,7 @@ playlist.load([
   {
     "src": "audio/Eagles-vocals.mp3",
     "name": "Eagles - Vocals",
-    "gain":0.6,
-    waveOutlineColor: '#FFAAAA',
+    "gain":0.7,
     "states": {
       "shift": false
     }
@@ -31,7 +30,7 @@ playlist.load([
   {
     "src": "audio/Eagles-bass.mp3",
     "name": "Eagles - Bass",
-    "gain":0.6,
+    "gain":0.7,
     "states": {
       "shift": false
     }
@@ -39,7 +38,7 @@ playlist.load([
   {
     "src": "audio/Eagles-drums.mp3",
     "name": "Eagles - Drums",
-    "gain":0.6,
+    "gain":0.7,
     "states": {
       "shift": false
     }
@@ -47,7 +46,8 @@ playlist.load([
   {
     "src": "audio/Eagles-guitars.mp3",
     "name": "Eagles - Guitars",
-    "gain":0.6,
+    "muted":true,
+    "gain":0.7,
     "states": {
       "shift": false
     }
@@ -55,7 +55,8 @@ playlist.load([
   {
     "src": "audio/Steve.mp3",
     "name": "Steve",
-    "gain":0.6,
+    "waveOutlineColor": '#EEFFEE',
+    "gain":0.4,
     "states": {
       "shift": false
     }
@@ -63,7 +64,8 @@ playlist.load([
   {
     "src": "audio/Chris.mp3",
     "name": "Chris",
-    "gain":0.6,
+    "waveOutlineColor": '#EEFFEE',
+    "gain":0.4,
     "states": {
       "shift": false
     }
@@ -71,7 +73,8 @@ playlist.load([
   {
     "src": "audio/Michel.mp3",
     "name": "Michel",
-    "gain":0.6,
+    "waveOutlineColor": '#EEFFEE',
+    "gain":0.4,
     "states": {
       "shift": false
     }
