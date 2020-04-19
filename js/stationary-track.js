@@ -2,9 +2,10 @@ var playlist = WaveformPlaylist.init({
   samplesPerPixel: 3000,
   zoomLevels: [500, 1000, 3000, 5000],
   mono: true,
-  waveHeight: 100,
+  waveHeight: 80,
   container: document.getElementById("playlist"),
   state: 'shift',
+  isAutomaticScroll: true,
   waveOutlineColor: '#E0EFF1',
   colors: {
       waveOutlineColor: '#E0EFF1',
@@ -22,6 +23,7 @@ playlist.load([
     "src": "audio/Eagles-vocals.mp3",
     "name": "Eagles - Vocals",
     "gain":0.6,
+    waveOutlineColor: '#FFAAAA',
     "states": {
       "shift": false
     }
