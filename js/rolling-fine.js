@@ -38,7 +38,7 @@ playlist.load([
   {
     "src": "audio/rollingfine-vocals-1.mp3",
     "name": "Vocals 1",
-    "gain":0.7,
+    "gain":0.5,
     "states": {
       "shift": false
     }
@@ -47,7 +47,7 @@ playlist.load([
     "src": "audio/rollingfine-vocals-2.mp3",
     "name": "vocals 2",
     "muted":false,
-    "gain":0.7,
+    "gain":0.6,
     "states": {
       "shift": false
     }
