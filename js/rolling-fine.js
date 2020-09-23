@@ -46,7 +46,7 @@ playlist.load([
   {
     "src": "audio/rollingfine-vocals-2.mp3",
     "name": "vocals 2",
-    "muted":true,
+    "muted":false,
     "gain":0.7,
     "states": {
       "shift": false
@@ -56,7 +56,7 @@ playlist.load([
     "src": "audio/rollingfine-guitar-rythm1.mp3",
     "name": "Guitar 1",
     "waveOutlineColor": '#EEFFEE',
-    "gain":0.4,
+    "gain":0.7,
     "states": {
       "shift": false
     }
@@ -65,7 +65,7 @@ playlist.load([
     "src": "audio/rollingfine-guitar-rythm2.mp3",
     "name": "Guitar 2",
     "waveOutlineColor": '#EEFFEE',
-    "gain":0.4,
+    "gain":0.7,
     "states": {
       "shift": false
     }
@@ -74,7 +74,7 @@ playlist.load([
     "src": "audio/rollingfine-guitar-slide.mp3",
     "name": "Guitar Slide",
     "waveOutlineColor": '#EEFFEE',
-    "gain":0.4,
+    "gain":0.7,
     "states": {
       "shift": false
     }
